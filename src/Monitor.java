@@ -20,7 +20,7 @@ public class Monitor {
             int zeroIndex = nextExpectedId - 1;
             int row = zeroIndex / columns;
             int col = zeroIndex % columns;
-            System.out.println("Result of cell in row " + (row + 1) + " and column " + (col + 1) + " = " + result);
+            System.out.printf("Result of cell in row " + (row + 1) + " and column " + (col + 1) + " = %.2f\n", result);
             nextExpectedId++;
         }
 
