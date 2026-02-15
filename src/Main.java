@@ -16,7 +16,7 @@ public class Main {
         int n = A.length;        // rows of A
         int p = B[0].length;     // columns of B
 
-        Monitor monitor = new Monitor();
+        Monitor monitor = new Monitor(p);
 
         Thread[] threads = new Thread[n * p];
 
